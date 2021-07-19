@@ -35,7 +35,7 @@ export default class BlogForm extends Component {
          {withCredentials: true}
         ).then(response =>{
             // TODO 
-            this.props.handleFeaturedImageDelete;
+            this.props.handleFeaturedImageDelete();
         }).catch(error => {
             console.log("deleteImage error", error);
         }) 
